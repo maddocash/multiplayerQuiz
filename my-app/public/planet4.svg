@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 365 359" style="enable-background:new 0 0 365 359;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{opacity:0.7;fill:url(#SVGID_3_);}
+	.st3{opacity:0.49;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:none;stroke:#F59B45;stroke-width:2;stroke-miterlimit:1;}
+	.st6{opacity:0.58;}
+	.st7{fill:#F59B43;}
+	.st8{fill:none;}
+	.st9{fill:#E6E7E8;stroke:#D09900;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st10{fill:#E6E7E8;stroke:#B97900;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#E7A400;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#D08200;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st13{fill:#E6E7E8;stroke:#231F20;stroke-linecap:round;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#FFA600;stroke-linecap:round;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#FFC900;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<symbol  id="Illuminated_Orange_Round_Org" viewBox="-13.1 -13.1 26.2 26.2">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="-12.1055" x2="1.482551e-15" y2="12.1064">
+			<stop  offset="0" style="stop-color:#F26900"/>
+			<stop  offset="0.618" style="stop-color:#F59842"/>
+			<stop  offset="0.6292" style="stop-color:#F59B43"/>
+			<stop  offset="0.9831" style="stop-color:#F49440"/>
+		</linearGradient>
+		<path class="st0" d="M12.1,0c0-6.7-5.4-12.1-12.1-12.1c-6.7,0-12.1,5.4-12.1,12.1S-6.7,12.1,0,12.1C6.7,12.1,12.1,6.7,12.1,0z"/>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="-12.1055" x2="1.482551e-15" y2="12.1064">
+			<stop  offset="0" style="stop-color:#E5872D"/>
+			<stop  offset="0.618" style="stop-color:#D26127"/>
+			<stop  offset="0.8278" style="stop-color:#DF832E;stop-opacity:0.4"/>
+			<stop  offset="0.9831" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		</linearGradient>
+		<path class="st1" d="M12.1,0c0-6.7-5.4-12.1-12.1-12.1c-6.7,0-12.1,5.4-12.1,12.1S-6.7,12.1,0,12.1C6.7,12.1,12.1,6.7,12.1,0z"/>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="0" y1="12.1064" x2="1.482551e-15" y2="-12.1055">
+			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.77"/>
+			<stop  offset="0.2033" style="stop-color:#FFFFFF;stop-opacity:0.65"/>
+			<stop  offset="0.3448" style="stop-color:#FFFFFF;stop-opacity:0.65"/>
+			<stop  offset="0.3462" style="stop-color:#FFFFFF;stop-opacity:0.65"/>
+			<stop  offset="0.511" style="stop-color:#FFFFFF;stop-opacity:0"/>
+			<stop  offset="0.5338" style="stop-color:#FDE7D5;stop-opacity:7.456693e-03"/>
+			<stop  offset="0.5581" style="stop-color:#FBD2B1;stop-opacity:1.540654e-02"/>
+			<stop  offset="0.5854" style="stop-color:#F9BF91;stop-opacity:2.434920e-02"/>
+			<stop  offset="0.6156" style="stop-color:#F7AF75;stop-opacity:3.423463e-02"/>
+			<stop  offset="0.6498" style="stop-color:#F6A35F;stop-opacity:4.540929e-02"/>
+			<stop  offset="0.6896" style="stop-color:#F5994E;stop-opacity:5.845619e-02"/>
+			<stop  offset="0.7389" style="stop-color:#F49243;stop-opacity:7.458591e-02"/>
+			<stop  offset="0.8081" style="stop-color:#F48E3C;stop-opacity:9.720551e-02"/>
+			<stop  offset="1" style="stop-color:#F48D3A;stop-opacity:0.16"/>
+		</linearGradient>
+		<path class="st2" d="M12.1,0c0-6.7-5.4-12.1-12.1-12.1c-6.7,0-12.1,5.4-12.1,12.1S-6.7,12.1,0,12.1C6.7,12.1,12.1,6.7,12.1,0z"/>
+		<g class="st3">
+			<path class="st4" d="M0-9.7C-5.3-9.4-11.6-5-10.7,1.1C-9.9,6-4.8,9.7,0,9.7c4.8,0,9.9-3.6,10.7-8.6C11.6-5,5.3-9.4,0-9.7
+				c-0.1,0,0-2.5,0-2.5c14.4,0.8,14.7,24.2,0,24.3c-14.7,0.1-14.4-23.5,0-24.3C0-12.1,0.1-9.7,0-9.7z"/>
+		</g>
+		<path class="st5" d="M12.1,0c0-6.7-5.4-12.1-12.1-12.1c-6.7,0-12.1,5.4-12.1,12.1S-6.7,12.1,0,12.1C6.7,12.1,12.1,6.7,12.1,0z"/>
+		<g class="st6">
+			<path class="st7" d="M12.1,0.2C11.3-15.1-11.8-15.6-11.8,0c0,15.6,23.1,15.2,23.9-0.2C12.1-0.1,12.1,0.1,12.1,0.2
+				C11.7,8,4.7,14-3.2,11.9c-5.3-1.4-8.9-6.4-8.9-11.9c0-5.2,3.3-10,8.3-11.7c8-2.7,15.5,3.5,15.9,11.5C12.1-0.1,12.1,0.1,12.1,0.2z
+				"/>
+		</g>
+	</g>
+</symbol>
+<line class="st8" x1="26.6" y1="150" x2="-0.6" y2="154.8"/>
+<line class="st8" x1="0" y1="172.7" x2="359" y2="165.7"/>
+<line class="st8" x1="339" y1="146.7" x2="698" y2="139.7"/>
+<path class="st8" d="M289,186.7"/>
+<path class="st8" d="M14,246.7c25.3,7.1,106.7,26.3,199-11c86.1-34.8,130.5-98.2,145-121c-3.3-2.7-8.7-6.4-16-8c0,0-7.1-1.5-15,0
+	C314.2,109.2,186.7,166.4,14,246.7z"/>
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -69.8121 195.4555)" class="st9" cx="201" cy="182" rx="194.7" ry="38.4"/>
+<ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -56.5637 163.471)" class="st10" cx="169" cy="150" rx="194.7" ry="38.4"/>
+<use xlink:href="#Illuminated_Orange_Round_Org"  width="26.2" height="26.2" x="-13.1" y="-13.1" transform="matrix(11.7141 0 0 -11.1822 182.5 157.1521)" style="overflow:visible;"/>
+<path class="st11" d="M296.4,54.7c-19.1,31.8-45.2,69-80.4,107c-47.2,50.9-95,86.3-133.2,110.1"/>
+<path class="st12" d="M324.3,93.4c-21,33.6-50.6,74.1-91.3,115.3c-37.2,37.5-73.8,65.6-104.8,86.3"/>
+<path class="st13" d="M636-18.3"/>
+<line class="st14" x1="277.3" y1="84.6" x2="277.3" y2="84.6"/>
+<line class="st15" x1="308.7" y1="117.2" x2="308.7" y2="117.2"/>
+<line class="st15" x1="-428.7" y1="7" x2="-429.6" y2="6.4"/>
+<line class="st15" x1="267" y1="179.5" x2="265.4" y2="178.4"/>
+<line class="st15" x1="435" y1="157.1" x2="433.4" y2="156"/>
+<line class="st15" x1="306.8" y1="12.3" x2="305.1" y2="11.2"/>
+</svg>

@@ -1,0 +1,93 @@
+@import '../../index';
+
+#listPlanets {
+  position: absolute;
+  left: 11em;
+  top: 0.25em;
+  padding: 0.5em;
+  font-family: $spaceFont;
+  color: white;
+}
+
+.planetList {
+  height: 3.5em;
+  width: 8.5em;
+}
+
+#availableQuestions {
+  position: relative;
+  top: -44px;
+  left: 94%;
+}
+
+#ListShow {
+  background-color: #c10000;
+  border-radius: 7px;
+}
+
+#ListNot {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@media only screen and (max-width: 1024px) {
+  #listPlanets {
+    left: 2em;
+  }
+  #availableQuestions {
+    top: -34px;
+  }
+  .planetList {
+    height: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 824px) {
+  #listPlanets {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    left: 4em;
+    top: 0.5em;
+    padding: 0.5em;
+  }
+  #availableQuestions {
+    top: -19px;
+    left: 58%;
+  }
+  .planetList {
+    height: 2.25em;
+    -webkit-animation: spin 10s linear infinite;
+  }
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #listPlanets {
+    left: 2.5em;
+  }
+  .planetList {
+    position: relative;
+    top: 9px;
+  }
+  #availableQuestions {
+    top: -13px;
+    left: 61%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .planetList {
+    width: 7em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .planetList {
+    width: 4em;
+  }
+}

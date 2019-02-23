@@ -1,0 +1,45 @@
+@import '../../index';
+
+.loading {
+  font-family: $gameFont;
+  text-align: center;
+  line-height: 3em;
+  font-size: 1em;
+}
+
+.loadingmodalPosition {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.loadingmodal {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0px auto;
+  padding: 30px;
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  right: 10%;
+}
+
+@media only screen and (max-width: 510px) {
+  .loadingmodalPosition {
+    top: 180px;
+    padding: 0px;
+  }
+
+  .loadingmodal {
+    min-height: 250px;
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  .loading {
+    line-height: 1.5em;
+  }
+}

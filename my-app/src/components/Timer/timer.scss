@@ -1,0 +1,24 @@
+@import '../../index';
+
+.timer {
+  font-family: $spaceFont;
+  position: absolute;
+  top: 16vh;
+  left: 77vw;
+  font-size: 11.5em;
+}
+
+@media only screen and (max-width: 800px) {
+  .timer {
+    top: 7vh;
+    left: 76vw;
+    font-size: 7em;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .timer {
+    top: 79vh;
+    left: 38vw;
+    font-size: 7em;
+  }
+}

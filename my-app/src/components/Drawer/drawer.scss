@@ -1,0 +1,119 @@
+@import '../../index';
+
+.drawer {
+  font-family: $gameFont;
+  font-size: 1em;
+  position: fixed;
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 6;
+}
+.drawerBtn {
+  background-color: rgba(255, 255, 0, 0.8);
+  color: #fff;
+}
+.drawerPlanet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+
+.planetsScore {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(138, 99, 157, 0.95);
+}
+
+.toggleScore {
+  width: 90%;
+  border: 2px solid;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: none;
+  text-align: center;
+  margin: 2% 0%;
+  font-size: 1.5em;
+  box-shadow: 0.3em 0em darkslategrey;
+  line-height: 1.5em;
+}
+
+#open {
+  height: 100vh;
+  box-shadow: 0.2em 0.5em 0.5em 0.2em black;
+  background-color: rgba(138, 99, 157, 0.95);
+  z-index: 6;
+  width: 74vw;
+}
+
+#openButton {
+  position: fixed;
+  top: 50%;
+  left: -6.5%;
+  transform: rotate(90deg);
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#closedButton {
+  position: absolute;
+  top: 50%;
+  left: 72vw;
+  transform: rotate(90deg);
+  font-family: inherit;
+  font-size: inherit;
+}
+
+@media only screen and (max-width: 1024px) {
+  #open {
+    width: 63vw;
+  }
+  #closedButton {
+    border: black solid;
+    left: 60vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #open {
+    width: 90vw;
+  }
+  #closedButton {
+    left: 83vw;
+    top: 56vh;
+  }
+  #openButton {
+    left: -11%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #open {
+    width: 88vw;
+  }
+  #closedButton {
+    left: 80vw;
+  }
+  #openButton {
+    left: -17%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .drawer {
+    font-size: 1em;
+  }
+  .drawerPlanet {
+    padding-bottom: 5px;
+  }
+  #open {
+    width: 94vw;
+  }
+  #closedButton {
+    left: 76vw;
+  }
+  #openButton {
+    left: -20%;
+  }
+}

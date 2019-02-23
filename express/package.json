@@ -1,0 +1,28 @@
+{
+  "name": "nExpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev:start": "nodemon app.js --trace-sync-io"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.1",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "es6-promise": "^4.1.1",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "express": "^4.16.0",
+    "helmet": "^3.9.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.3",
+    "mongoose": "^4.12.1",
+    "randomcolor": "^0.5.3",
+    "socket.io": "^2.0.4"
+  }
+}

@@ -1,0 +1,195 @@
+.planet1 {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  position: relative;
+  top: 7%;
+  left: 10%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet2 {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  position: relative;
+  top: 4%;
+  left: 86%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet3 {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  position: relative;
+  top: 43%;
+  left: 10%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet4 {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  position: relative;
+  top: 17%;
+  left: 85%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet5 {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  position: relative;
+  top: -8%;
+  left: 10%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet6 {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  position: relative;
+  top: 55%;
+  left: 75%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet7 {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  position: relative;
+  top: 38%;
+  left: 8%;
+  -webkit-animation: turn 15s linear infinite;
+}
+
+.planet8 {
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet9 {
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  position: relative;
+  top: 39%;
+  left: 96%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet10 {
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  position: relative;
+  top: 72%;
+  left: 55%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet11 {
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  position: relative;
+  top: 29%;
+  left: -4%;
+  -webkit-animation: turn 15s linear infinite;
+}
+.planet12 {
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  position: relative;
+  top: -46%;
+  left: 65%;
+  -webkit-animation: turn 15s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes turn {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+  }
+}
+.lock {
+  position: absolute;
+  top: 32%;
+  left: 2%;
+  height: 73%;
+  width: 98%;
+}
+
+.lockPlayer {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 98%;
+  width: 98%;
+}
+
+#show {
+  display: visible;
+}
+
+#not {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .planet1 {
+    top: 2%;
+    left: 10%;
+  }
+  .planet2 {
+    top: 4%;
+    left: 86%;
+  }
+  .planet3 {
+    top: 33%;
+    left: 10%;
+  }
+  .planet4 {
+    top: 17%;
+    left: 85%;
+  }
+  .planet5 {
+    top: -12%;
+    left: 10%;
+  }
+  .planet6 {
+    top: 47%;
+    left: 75%;
+  }
+  .planet7 {
+    top: 30%;
+    left: 8%;
+  }
+  .planet8 {
+    top: 3%;
+    left: 10%;
+  }
+  .planet9 {
+    top: 37%;
+    left: 92%;
+  }
+  .planet10 {
+    top: 63%;
+    left: 55%;
+  }
+  .planet11 {
+    top: 29%;
+    left: 0%;
+  }
+  .planet12 {
+    top: -59%;
+    left: 65%;
+  }
+}

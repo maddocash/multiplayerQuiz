@@ -1,0 +1,84 @@
+@import '../../index';
+
+.solarSystem {
+  font-family: $gameFont;
+  font-size: 1em;
+}
+
+.planet0 {
+  position: absolute;
+  height: 5em;
+  width: 5em;
+  top: 47%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.innerOrbit {
+  position: absolute;
+  height: 20em;
+  width: 20em;
+  top: 32%;
+  left: 54%;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  -webkit-animation: spin-right 55s linear infinite;
+}
+.centralOrbit {
+  position: absolute;
+  height: 30em;
+  width: 30em;
+  top: 23%;
+  left: 49%;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  -webkit-animation: spin-right 75s linear infinite;
+}
+.outerOrbit {
+  position: absolute;
+  height: 45em;
+  width: 45em;
+  top: 10%;
+  left: 42%;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  -webkit-animation: spin-right 175s linear infinite;
+}
+
+@media only screen and (max-width: 1024px) {
+  .planet0 {
+    top: 50%;
+    left: 66%;
+  }
+  .innerOrbit {
+    height: 15em;
+    width: 15em;
+    top: 35%;
+    left: 54%;
+  }
+  .centralOrbit {
+    height: 25em;
+    width: 25em;
+    top: 26%;
+    left: 47%;
+  }
+  .outerOrbit {
+    height: 35em;
+    width: 35em;
+    top: 15%;
+    left: 40%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .solarSystem {
+    display: none;
+  }
+}

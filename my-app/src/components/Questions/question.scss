@@ -1,0 +1,60 @@
+@import '../../index';
+
+.showQuestions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $spaceFont;
+  color: #fff;
+  width: 100vw;
+  z-index: 4;
+}
+
+#ShowQuestionsTitle {
+  font-size: 2.5em;
+  text-align: center;
+  z-index: 5;
+  width: 100vw;
+}
+
+#answers {
+  background-color: rgba(112, 128, 144, 0.8);
+  border-radius: 10px;
+  position: fixed;
+  z-index: 1;
+  font-size: 2em;
+  line-height: 2.5em;
+  width: 50%;
+  top: 33%;
+}
+
+#planetImg {
+  -webkit-animation: spin 200s linear infinite;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #ShowQuestionsTitle {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #answers {
+    top: 185px;
+    width: 83%;
+    font-size: 1.5em;
+    line-height: 2.5em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #answers {
+    line-height: 2em;
+  }
+}

@@ -1,0 +1,173 @@
+@import '../../index';
+
+.chatDrawer {
+  font-family: $gameFont;
+  font-size: 1em;
+  position: fixed;
+  height: 100vh;
+  right: 0%;
+  color: black;
+  z-index: 6;
+}
+.chatDrawerBtn {
+  background-color: rgba(255, 255, 0, 0.8);
+  color: #fff;
+}
+
+.me {
+  background-color: #add8e6;
+  width: 70%;
+  clear: both;
+  border-radius: 10px;
+  margin: 17px 10px;
+  box-shadow: 2px 2px 0px 1px black;
+}
+
+.others {
+  width: 70%;
+  clear: both;
+  background-color: #6495ed;
+  float: right;
+  border-radius: 10px;
+  margin: 17px 10px;
+  box-shadow: 2px 2px 0px 1px black;
+}
+
+#messages {
+  height: 86vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 105%;
+}
+
+#meDate {
+  position: relative;
+  top: 62px;
+  font-size: 0.8em;
+}
+
+#othersDate {
+  position: relative;
+  top: 75px;
+  font-size: 0.8em;
+}
+
+#content {
+  font-size: 1em;
+  text-indent: 10px;
+}
+
+#meName {
+  position: relative;
+  top: 15px;
+  left: 76%;
+}
+
+#othersName {
+  position: relative;
+  top: 29px;
+  left: 76%;
+}
+
+#sendBtn {
+  width: stretch;
+}
+
+#chatOpen {
+  box-shadow: 0.2em 0.5em 0.5em 0.2em #000;
+  background-color: rgba(138, 99, 157, 0.95);
+  z-index: 6;
+  width: 50vw;
+  border-radius: 10px;
+}
+
+#currentMessage {
+  width: 99%;
+  border-radius: 10px;
+  height: 23px;
+}
+#sendMessage {
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+#chatOpenButton {
+  position: fixed;
+  top: 50%;
+  right: -7%;
+  transform: rotate(270deg);
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#chatClosedButton {
+  position: absolute;
+  top: 50%;
+  right: 47.5vw;
+  transform: rotate(270deg);
+  font-family: inherit;
+  font-size: inherit;
+}
+
+@media only screen and (max-width: 1024px) {
+  #chatOpen {
+    width: 60vw;
+  }
+  #chatClosedButton {
+    border: black solid;
+    right: 56vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #chatOpen {
+    width: 60vw;
+  }
+  #chatClosedButton {
+    right: 79vw;
+  }
+  #chatOpenButton {
+    top: 49%;
+    right: -6%;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  #chatOpen {
+    width: 88vw;
+  }
+  #chatClosedButton {
+    right: 80vw;
+  }
+  #chatOpenButton {
+    top: 27%;
+    right: -12%;
+  }
+  .finalScoreBoard #chatClosed #chatOpenButton {
+    top: 27%;
+    right: -16%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .chatDrawer {
+    font-size: 1em;
+  }
+  .chatDrawerPlanet {
+    padding-bottom: 5px;
+  }
+  #chatOpen {
+    width: 90vw;
+  }
+  #chatClosedButton {
+    right: 80vw;
+  }
+  #chatOpenButton {
+    right: -18%;
+    top: 39%;
+  }
+}
